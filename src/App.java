@@ -27,7 +27,15 @@ public class App {
         metododBurbuja.ordenarDecendente();
         metododBurbuja.imprimirArreglo();
     }*/
-}    
+}   public static void ruMetodoSelecion(){
+        MetodoSelecion mSelecion = new MetodoSelecion();
+        int []arr = new int{1,10,7,9,0,1,3,4};
+        mSeleccion.printArreglo(arr);
+        mSeleccion.sort(arr);mSeleccion.
+        mSeleccion.printArreglo(arr);
+        mSeleccion.sort(arr);
+        mSeleccion.printArreglo(arr);
+}
    
 
 
